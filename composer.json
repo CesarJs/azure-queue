@@ -1,5 +1,5 @@
 {
-    "name": "simplexi/greetr",
+    "name": "etapa/azure-queue",
     "description": "exmple package",
     "type": "project",
     "license": "MIT",
@@ -12,8 +12,10 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Simplexi\\Greetr\\": "src/"
+            "Etapa\\QueueAzure\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "microsoft/azure-storage-queue": "dev-master"
+    }
 }
