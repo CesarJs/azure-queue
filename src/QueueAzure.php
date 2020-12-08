@@ -9,6 +9,7 @@ use MicrosoftAzure\Storage\Queue\Models\CreateQueueOptions;
 class QueueAzure
 {
     public function sendQueue($data){
+        try    {
         if(!$data || $data == null){
             throw new \Exception("Error Processing Request", 1);
         }
@@ -21,8 +22,9 @@ class QueueAzure
             $createQueueOptions->addMetaData($key, $value);
         }
 
-        try    {
-            $queueClient->createQueue($data['module'], $createQueueOptions);
+            $queueClient->createMessage('log01',  json_encode($data));
+
+            return json_encode(['status' => true]);
         }
         catch(ServiceException $e){
 
