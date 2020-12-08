@@ -16,6 +16,6 @@
         }
     },
     "require": {
-        "microsoft/azure-storage-queue": "dev-master"
+        "microsoft/azure-storage-queue": "*"
     }
 }
