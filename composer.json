@@ -1,0 +1,19 @@
+{
+    "name": "simplexi/greetr",
+    "description": "exmple package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cesar Augusto",
+            "email": "cesar.lima@etapa.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Simplexi\\Greetr\\": "src/"
+        }
+    },
+    "require": {}
+}
