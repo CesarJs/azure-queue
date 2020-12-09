@@ -1,6 +1,7 @@
 {
     "name": "etapa/azure-queue",
     "description": "exmple package",
+    "version": "1.0.9",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -13,8 +14,8 @@
     "autoload": {
         "psr-4": {
 			"Etapa\\QueueAzure\\": "src/",
-			"MicrosoftAzure\\Storage\\Queue\\": "microsoft/azure-storage-queue/src/Queue",
-			"MicrosoftAzure\\Storage\\Common\\": "microsoft/azure-storage-common/src/Common"
+			"MicrosoftAzureEtapa\\Storage\\Queue\\": "microsoft/azure-storage-queue/src/Queue",
+			"MicrosoftAzureEtapa\\Storage\\Common\\": "microsoft/azure-storage-common/src/Common"
         }
     },
     "require": {

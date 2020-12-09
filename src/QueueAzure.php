@@ -2,9 +2,9 @@
 
 namespace Etapa\QueueAzure;
 
-use MicrosoftAzure\Storage\Queue\QueueRestProxy;
-use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
-use MicrosoftAzure\Storage\Queue\Models\CreateQueueOptions;
+use MicrosoftAzureEtapa\Storage\Queue\QueueRestProxy;
+use MicrosoftAzureEtapa\Storage\Common\Exceptions\ServiceException;
+use MicrosoftAzureEtapa\Storage\Queue\Models\CreateQueueOptions;
 
 class QueueAzure
 {
