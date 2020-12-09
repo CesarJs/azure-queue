@@ -13,8 +13,8 @@
     "autoload": {
         "psr-4": {
 			"Etapa\\QueueAzure\\": "src/",
-			"MicrosoftAzure\\Storage\\Queue\\": "microsoft/Queue",
-			"MicrosoftAzure\\Storage\\Common\\": "microsoft/Common"
+			"MicrosoftAzure\\Storage\\Queue\\": "microsoft/azure-storage-queue/src/Queue",
+			"MicrosoftAzure\\Storage\\Common\\": "microsoft/azure-storage-common/src/Common"
         }
     },
     "require": {
