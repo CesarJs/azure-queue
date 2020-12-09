@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "431641f9681cb08a400321f4e7aecb78",
+    "content-hash": "ea9246067dababe4d2fa2dedbf6f345b",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -263,7 +263,7 @@
         },
         {
             "name": "microsoft/azure-storage-queue",
-            "version": "dev-master",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Azure/azure-storage-queue-php.git",
@@ -637,9 +637,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "microsoft/azure-storage-queue": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
