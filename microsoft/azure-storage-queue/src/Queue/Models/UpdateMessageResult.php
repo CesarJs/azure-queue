@@ -15,24 +15,24 @@
  * PHP version 5
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Queue\Models
+ * @package   MicrosoftAzureEtapa\Storage\Queue\Models
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2016 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Queue\Models;
+namespace MicrosoftAzureEtapa\Storage\Queue\Models;
 
-use MicrosoftAzure\Storage\Common\Internal\Validate;
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Queue\Internal\QueueResources as Resources;
+use MicrosoftAzureEtapa\Storage\Common\Internal\Validate;
+use MicrosoftAzureEtapa\Storage\Common\Internal\Utilities;
+use MicrosoftAzureEtapa\Storage\Queue\Internal\QueueResources as Resources;
 
 /**
  * Holds results of updateMessage wrapper.
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Queue\Models
+ * @package   MicrosoftAzureEtapa\Storage\Queue\Models
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2016 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE

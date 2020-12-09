@@ -15,21 +15,21 @@
  * PHP version 5
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Common\Middlewares
+ * @package   MicrosoftAzureEtapa\Storage\Common\Middlewares
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2017 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Common\Middlewares;
+namespace MicrosoftAzureEtapa\Storage\Common\Middlewares;
 
 /**
  * IMiddleware is called before sending the request and after receiving the
  * response.
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Common\Middlewares
+ * @package   MicrosoftAzureEtapa\Storage\Common\Middlewares
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2017 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE

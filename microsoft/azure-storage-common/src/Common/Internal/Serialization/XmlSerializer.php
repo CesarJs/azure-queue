@@ -15,25 +15,25 @@
  * PHP version 5
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Common\Internal\Serialization
+ * @package   MicrosoftAzureEtapa\Storage\Common\Internal\Serialization
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2016 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Common\Internal\Serialization;
+namespace MicrosoftAzureEtapa\Storage\Common\Internal\Serialization;
 
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Internal\Validate;
+use MicrosoftAzureEtapa\Storage\Common\Internal\Utilities;
+use MicrosoftAzureEtapa\Storage\Common\Internal\Resources;
+use MicrosoftAzureEtapa\Storage\Common\Internal\Validate;
 
 /**
  * Short description
  *
  * @ignore
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Common\Internal\Serialization
+ * @package   MicrosoftAzureEtapa\Storage\Common\Internal\Serialization
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2016 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE

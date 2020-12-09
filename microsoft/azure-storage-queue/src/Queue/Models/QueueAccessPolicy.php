@@ -15,23 +15,23 @@
  * PHP version 5
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Queue\Models
+ * @package   MicrosoftAzureEtapa\Storage\Queue\Models
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2017 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Queue\Models;
+namespace MicrosoftAzureEtapa\Storage\Queue\Models;
 
-use MicrosoftAzure\Storage\Common\Models\AccessPolicy;
-use MicrosoftAzure\Storage\Queue\Internal\QueueResources;
+use MicrosoftAzureEtapa\Storage\Common\Models\AccessPolicy;
+use MicrosoftAzureEtapa\Storage\Queue\Internal\QueueResources;
 
 /**
  * Holds access policy elements
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Queue\Models
+ * @package   MicrosoftAzureEtapa\Storage\Queue\Models
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2017 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE

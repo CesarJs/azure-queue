@@ -15,24 +15,24 @@
  * PHP version 5
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Common
+ * @package   MicrosoftAzureEtapa\Storage\Common
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2016 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Common;
+namespace MicrosoftAzureEtapa\Storage\Common;
 
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Common\Internal\Validate;
-use MicrosoftAzure\Storage\Common\Internal\ConnectionStringSource;
+use MicrosoftAzureEtapa\Storage\Common\Internal\Utilities;
+use MicrosoftAzureEtapa\Storage\Common\Internal\Validate;
+use MicrosoftAzureEtapa\Storage\Common\Internal\ConnectionStringSource;
 
 /**
  * Configuration manager for accessing Windows Azure settings.
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Common
+ * @package   MicrosoftAzureEtapa\Storage\Common
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2016 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE

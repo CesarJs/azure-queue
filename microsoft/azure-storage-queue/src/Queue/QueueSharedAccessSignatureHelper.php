@@ -15,25 +15,25 @@
  * PHP version 5
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Queue
+ * @package   MicrosoftAzureEtapa\Storage\Queue
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Queue;
+namespace MicrosoftAzureEtapa\Storage\Queue;
 
-use MicrosoftAzure\Storage\Common\Internal\Utilities;
-use MicrosoftAzure\Storage\Common\Internal\Validate;
-use MicrosoftAzure\Storage\Common\SharedAccessSignatureHelper;
-use MicrosoftAzure\Storage\Queue\Internal\QueueResources as Resources;
+use MicrosoftAzureEtapa\Storage\Common\Internal\Utilities;
+use MicrosoftAzureEtapa\Storage\Common\Internal\Validate;
+use MicrosoftAzureEtapa\Storage\Common\SharedAccessSignatureHelper;
+use MicrosoftAzureEtapa\Storage\Queue\Internal\QueueResources as Resources;
 
 /**
  * Provides methods to generate Azure Storage Shared Access Signature
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Queue
+ * @package   MicrosoftAzureEtapa\Storage\Queue
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2017 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE

@@ -15,22 +15,22 @@
  * PHP version 5
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Common
+ * @package   MicrosoftAzureEtapa\Storage\Common
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2016 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Common;
+namespace MicrosoftAzureEtapa\Storage\Common;
 
-use MicrosoftAzure\Storage\Common\Internal\Resources;
+use MicrosoftAzureEtapa\Storage\Common\Internal\Resources;
 
 /**
  * Logger class for debugging purpose.
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Common
+ * @package   MicrosoftAzureEtapa\Storage\Common
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2016 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE

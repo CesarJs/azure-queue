@@ -16,24 +16,24 @@
  *
  * @ignore
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Common\Models
+ * @package   MicrosoftAzureEtapa\Storage\Common\Models
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2017 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace MicrosoftAzure\Storage\Common\Internal;
+namespace MicrosoftAzureEtapa\Storage\Common\Internal;
 
-use MicrosoftAzure\Storage\Common\Models\AccessPolicy;
-use MicrosoftAzure\Storage\Common\Models\SignedIdentifier;
-use MicrosoftAzure\Storage\Common\Internal\Serialization\XmlSerializer;
+use MicrosoftAzureEtapa\Storage\Common\Models\AccessPolicy;
+use MicrosoftAzureEtapa\Storage\Common\Models\SignedIdentifier;
+use MicrosoftAzureEtapa\Storage\Common\Internal\Serialization\XmlSerializer;
 
 /**
  * Provide base class for service ACLs.
  *
  * @category  Microsoft
- * @package   MicrosoftAzure\Storage\Common\Models
+ * @package   MicrosoftAzureEtapa\Storage\Common\Models
  * @author    Azure Storage PHP SDK <dmsh@microsoft.com>
  * @copyright 2017 Microsoft Corporation
  * @license   https://github.com/azure/azure-storage-php/LICENSE
