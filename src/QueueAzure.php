@@ -22,7 +22,7 @@ class QueueAzure
             $createQueueOptions->addMetaData($key, $value);
         }
 
-            $queueClient->createMessage('log01',  json_encode($data));
+            $queueClient->createMessage('log01',  base64_encode(json_encode($data)));
 
             return json_encode(['status' => true]);
         }
